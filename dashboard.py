@@ -17,7 +17,7 @@ if fl is not None:
     st.write(filename)
     df = pd.read_csv(filename, encoding = "ISO-8859-1")
 else:
-    os.chdir(r"C:\Users\vincent.koech\Downloads\dash")
+    os.chdir(r"C:/Users/vincent.koech/Downloads/dash")
     df = pd.read_csv("Sample - Superstore.csv", encoding = "ISO-8859-1")
     
 # create a date picker
